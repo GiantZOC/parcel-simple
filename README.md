@@ -21,6 +21,9 @@ $ npm run dev
 
 * `npm run build`: build with HTML/CSS/JS `without` minification.
 
+  > Note:
+  > [There is a bug in Parcel right now messing up minified builds with uglifyjs](https://github.com/parcel-bundler/parcel/issues/8)
+
 ### Fork It And Make Your Own
 
 You can fork this repo to create your own boilerplate, and use it with
