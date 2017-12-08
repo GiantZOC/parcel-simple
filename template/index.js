@@ -1,6 +1,6 @@
 import Vue from 'vue';
 
-new Vue({
+const app = new Vue({
   el: '#app',
   data: {
     greeting: 'Welcome to your Vue.js app!',
@@ -13,7 +13,7 @@ new Vue({
       return url.replace(/^https?:\/\//, '').replace(/\/$/, '');
     },
   },
-});
+}).$mount();
 
 if (module.hot) {
   module.hot.accept();
